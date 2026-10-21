@@ -589,13 +589,13 @@ const LevelUp: Page = () => (
           <Stage
             icon={<BranchGlyph />}
             label="Contributor"
-            desc="We help more people become contributors"
+            desc="We need more organizations become contributors"
           />
           <FlowArrow />
           <Stage
             icon={<CodeGlyph />}
             label="Builder"
-            desc="And eventually become project creators"
+            desc="And eventually become creators of open source technologies"
             accent
           />
         </div>
@@ -733,8 +733,8 @@ const FundingFlywheel: Page = () => (
             desc="Harvard research on 100,000 startups ties public code activity to entrepreneurial success"
           />
           <BulletRow
-            title="Global signaling"
-            desc="Public code proves engineering rigor and technical depth to investors worldwide"
+            title="Best equalizer in terms of opportunities"
+            desc="OSS contributions are one channel in terms of overcoming lack of opportunities from economic inequalities"
           />
         </div>
       </Step>
@@ -979,235 +979,6 @@ const FiresideChat: Page = () => (
   </div>
 );
 
-const Hacktoberfest: Page = () => (
-  <div
-    style={{
-      ...fill,
-      background: 'var(--osd-bg)',
-      color: 'var(--osd-text)',
-      padding: '120px 160px',
-      display: 'flex',
-      flexDirection: 'column',
-    }}
-  >
-    <Steps>
-      <Eyebrow>Global Scale, Local Impact</Eyebrow>
-      <Heading>Hacktoberfest</Heading>
-      <div style={{ height: 48 }} />
-      <Step>
-        <div
-          style={{
-            display: 'flex',
-            gap: 32,
-          }}
-        >
-          <div
-            style={{
-              flex: 1,
-              padding: 40,
-              background: '#FFFFFF',
-              borderRadius: 'var(--osd-radius)',
-              border: `1px solid ${border}`,
-            }}
-          >
-            <div
-              style={{
-                fontSize: 56,
-                fontWeight: 700,
-                color: 'var(--osd-accent)',
-                fontFamily: 'var(--osd-font-display)',
-                lineHeight: 1,
-              }}
-            >
-              2014
-            </div>
-            <div style={{ fontSize: 30, fontWeight: 700, marginTop: 20 }}>
-              A global movement
-            </div>
-            <div style={{ fontSize: 26, color: muted, marginTop: 12, lineHeight: 1.5 }}>
-              Over a decade of driving worldwide open-source collaboration every October
-            </div>
-          </div>
-          <div
-            style={{
-              flex: 1,
-              padding: 40,
-              background: lightBg,
-              borderRadius: 'var(--osd-radius)',
-              border: '2px solid var(--osd-accent)',
-            }}
-          >
-            <div
-              style={{
-                fontSize: 56,
-                fontWeight: 700,
-                color: 'var(--osd-accent)',
-                fontFamily: 'var(--osd-font-display)',
-                lineHeight: 1,
-              }}
-            >
-              2020
-            </div>
-            <div style={{ fontSize: 30, fontWeight: 700, marginTop: 20 }}>
-              Cebu's chapter
-            </div>
-            <div style={{ fontSize: 26, color: muted, marginTop: 12, lineHeight: 1.5 }}>
-              Building a thriving regional chapter — uniting developers, students, and
-              communities around public repositories
-            </div>
-          </div>
-        </div>
-      </Step>
-    </Steps>
-    <Footer />
-  </div>
-);
-
-const CommitsToCapital: Page = () => (
-  <div
-    style={{
-      ...fill,
-      background: 'var(--osd-bg)',
-      color: 'var(--osd-text)',
-      padding: '120px 160px',
-      display: 'flex',
-      flexDirection: 'column',
-    }}
-  >
-    <Steps>
-      <Eyebrow>Open Source &amp; Funding</Eyebrow>
-      <Heading>From Commits to Capital</Heading>
-      <div style={{ height: 48 }} />
-      <Step>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
-          <BulletRow
-            title="Prove traction"
-            desc="Hacktoberfest projects provide concrete proof of technical execution for VCs and angel investors"
-          />
-          <BulletRow
-            title="The open funding magnet"
-            desc="Growing availability of grants, open-core models, and investor networks targeting open-source startups"
-          />
-          <BulletRow
-            title="A talent pipeline"
-            desc="The most active contributors often become your next co-founders or core engineering hires"
-          />
-        </div>
-      </Step>
-    </Steps>
-    <Footer />
-  </div>
-);
-
-const CallToAction: Page = () => (
-  <div
-    style={{
-      ...fill,
-      background: 'var(--osd-bg)',
-      color: 'var(--osd-text)',
-      display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'center',
-      alignItems: 'center',
-      textAlign: 'center',
-      padding: '0 160px',
-    }}
-  >
-    <Eyebrow>Join Us</Eyebrow>
-    <h2
-      style={{
-        fontFamily: 'var(--osd-font-display)',
-        fontSize: 100,
-        fontWeight: 700,
-        margin: 0,
-        lineHeight: 1.0,
-        letterSpacing: '0.01em',
-        textTransform: 'uppercase',
-      }}
-    >
-      This Hacktoberfest!
-    </h2>
-    <div
-      style={{
-        width: 80,
-        height: 4,
-        background: 'var(--osd-accent)',
-        margin: '36px auto',
-      }}
-    />
-    <div
-      style={{
-        display: 'flex',
-        gap: 40,
-        textAlign: 'left',
-        maxWidth: 1500,
-      }}
-    >
-      <div
-        style={{
-          flex: 1,
-          padding: 32,
-          background: '#FFFFFF',
-          borderRadius: 'var(--osd-radius)',
-          border: `1px solid ${border}`,
-        }}
-      >
-        <div style={{ fontSize: 26, fontWeight: 700, color: 'var(--osd-accent)', letterSpacing: '0.1em', marginBottom: 12 }}>
-          GET INVOLVED
-        </div>
-        <div style={{ fontSize: 26, color: muted, lineHeight: 1.5 }}>Participate as participants, mentors, or sponsors, or join us on the meetups and project showcases</div>
-      </div>
-      <div
-        style={{
-          flex: 1,
-          padding: 32,
-          background: '#FFFFFF',
-          borderRadius: 'var(--osd-radius)',
-          border: `1px solid ${border}`,
-        }}
-      >
-        <div style={{ fontSize: 26, fontWeight: 700, color: 'var(--osd-accent)', letterSpacing: '0.1em', marginBottom: 12 }}>GIVE OUT PRIZES AND SWAGS</div>
-        <div style={{ fontSize: 26, color: muted, lineHeight: 1.5 }}>
-          Explore local incubator programs and funding for open-source-driven startups
-        </div>
-      </div>
-      <div
-        style={{
-          flex: 1,
-          padding: 32,
-          background: lightBg,
-          borderRadius: 'var(--osd-radius)',
-          border: '2px solid var(--osd-accent)',
-        }}
-      >
-        <div style={{ fontSize: 26, fontWeight: 700, color: 'var(--osd-accent)', letterSpacing: '0.1em', marginBottom: 12 }}>
-          FINAL WORD
-        </div>
-        <div style={{ fontSize: 26, color: muted, lineHeight: 1.5 }}>
-          Build your public code footprint, secure funding, and scale globally
-        </div>
-      </div>
-    </div>
-    <div
-      style={{
-        marginTop: 56,
-        display: 'inline-flex',
-        alignItems: 'center',
-        gap: 12,
-        padding: '16px 40px',
-        background: 'var(--osd-accent)',
-        color: '#F4F1E8',
-        borderRadius: 'var(--osd-radius)',
-        fontSize: 28,
-        fontWeight: 600,
-      }}
-    >
-      Start Building ↗
-    </div>
-    <Footer />
-  </div>
-);
-
 export const meta: SlideMeta = {
   title: 'Building the Frontier',
   createdAt: '2026-10-21T00:10:52.5945588+08:00',
@@ -1224,9 +995,6 @@ export const notes: (string | undefined)[] = [
   `Investors look for technical authenticity. Data proves that active public commits translate directly into higher valuations and venture funding success.`,
   `Building in public creates a natural distribution channel. Your developer users become your future enterprise customers. Stop writing code behind closed doors—commit and contribute.`,
   `"To wrap up our first section, let's bring it home with a special Fireside Chat. I'd like to invite to the stage the Executive Board members of the Cebu Tech Communities. Let's discuss how our local groups are navigating open source, bridging talent, and building the future right here in Cebu.`,
-  `Investors want to see execution. Events like Hacktoberfest give startups a public portfolio, helping them attract specialized grants and angel funding.`,
-  `Globally, Hacktoberfest has driven open-source building since 2014. Right here in Cebu, we've been running our own vibrant chapter since 2020, turning local talent into active global contributors.`,
-  `Let's make this year's Hacktoberfest our biggest yet. Build in public, tap into available funding, and let's put our local ecosystem on the global tech map!`,
 ];
 
 export default [
@@ -1239,7 +1007,4 @@ export default [
   FundingFlywheel,
   DistributionChannel,
   FiresideChat,
-  CommitsToCapital,
-  Hacktoberfest,
-  CallToAction,
 ] satisfies Page[];
