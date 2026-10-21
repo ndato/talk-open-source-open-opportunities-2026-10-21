@@ -1,0 +1,98 @@
+[
+  {
+    "name": "wordmark-primary",
+    "width": 440,
+    "height": 104,
+    "background": "transparent"
+  },
+  {
+    "name": "wordmark-reverse",
+    "width": 440,
+    "height": 104,
+    "background": "transparent"
+  },
+  {
+    "name": "wordmark-mono",
+    "width": 440,
+    "height": 104,
+    "background": "transparent"
+  },
+  {
+    "name": "wordmark-black",
+    "width": 440,
+    "height": 104,
+    "background": "transparent"
+  },
+  {
+    "name": "wordmark-white",
+    "width": 440,
+    "height": 104,
+    "background": "transparent"
+  },
+  {
+    "name": "arrow-orange",
+    "width": 128,
+    "height": 128,
+    "background": "transparent"
+  },
+  {
+    "name": "arrow-ink",
+    "width": 128,
+    "height": 128,
+    "background": "transparent"
+  },
+  {
+    "name": "arrow-paper",
+    "width": 128,
+    "height": 128,
+    "background": "transparent"
+  },
+  {
+    "name": "open-door-orange",
+    "width": 320,
+    "height": 400,
+    "background": "transparent"
+  },
+  {
+    "name": "open-door-ink",
+    "width": 320,
+    "height": 400,
+    "background": "transparent"
+  },
+  {
+    "name": "year-tile-ink",
+    "width": 260,
+    "height": 390,
+    "background": "transparent"
+  },
+  {
+    "name": "year-tile-paper",
+    "width": 260,
+    "height": 390,
+    "background": "transparent"
+  },
+  {
+    "name": "template-square-1080",
+    "width": 1080,
+    "height": 1080,
+    "background": "paper"
+  },
+  {
+    "name": "template-story-1080x1920",
+    "width": 1080,
+    "height": 1920,
+    "background": "ink"
+  },
+  {
+    "name": "template-event-slide-1920x1080",
+    "width": 1920,
+    "height": 1080,
+    "background": "paper"
+  },
+  {
+    "name": "palette-reference",
+    "width": 1440,
+    "height": 800,
+    "background": "paper"
+  }
+]

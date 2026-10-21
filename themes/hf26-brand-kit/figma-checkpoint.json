@@ -1,0 +1,92 @@
+{
+  "fileKey": "GVRi4tC99n4xT2JcZHZsuK",
+  "url": "https://www.figma.com/design/GVRi4tC99n4xT2JcZHZsuK",
+  "phase": "blocked-during-guide-verification",
+  "pages": [
+    {
+      "id": "0:1",
+      "name": "00 / Brand Guide"
+    },
+    {
+      "id": "4:2",
+      "name": "01 / Brand Assets"
+    },
+    {
+      "id": "4:3",
+      "name": "02 / Templates"
+    }
+  ],
+  "tokens": {
+    "collections": [
+      "VariableCollectionId:2:2",
+      "VariableCollectionId:2:3"
+    ],
+    "variables": {
+      "paper": {
+        "primitive": "VariableID:2:4",
+        "semantic": "VariableID:2:5",
+        "hex": "#f4f1e8"
+      },
+      "ink": {
+        "primitive": "VariableID:2:6",
+        "semantic": "VariableID:2:7",
+        "hex": "#252820"
+      },
+      "orange": {
+        "primitive": "VariableID:2:8",
+        "semantic": "VariableID:2:9",
+        "hex": "#e64c2c"
+      },
+      "orange-dark": {
+        "primitive": "VariableID:2:10",
+        "semantic": "VariableID:2:11",
+        "hex": "#b63419"
+      },
+      "moss": {
+        "primitive": "VariableID:2:12",
+        "semantic": "VariableID:2:13",
+        "hex": "#798365"
+      },
+      "muted": {
+        "primitive": "VariableID:2:14",
+        "semantic": "VariableID:2:15",
+        "hex": "#66685b"
+      },
+      "line": {
+        "primitive": "VariableID:2:16",
+        "semantic": "VariableID:2:17",
+        "hex": "#d0d0c1"
+      },
+      "soft": {
+        "primitive": "VariableID:2:18",
+        "semantic": "VariableID:2:19",
+        "hex": "#eaeade"
+      }
+    },
+    "createdNodeIds": [],
+    "mutatedNodeIds": []
+  },
+  "styles": {
+    "Display/Hero": "S:6517f946ecace149ac9e29e43859f1bf1be98a2b,",
+    "Display/Heading": "S:86060f56ecc47a76c134c06cf5ad8002a1bc1c0d,",
+    "Display/Section": "S:fa1692133be1a07f8229c2f74833a4bcb5e92ded,",
+    "Brand/Wordmark": "S:b89d73ab0f9a952069e4ad7e9dc8562d94c7905d,",
+    "Body/Large": "S:47729c8f57f757a832bbb326f9c041f17cf2a889,",
+    "Body/Regular": "S:1e02b744f4a8b2b58c97b10b0dd261bf9b76e720,",
+    "Body/Strong": "S:f08c7d760e917ff46f8599c808dd2c8f5e057d79,",
+    "Label/Eyebrow": "S:90dc4284132826bc1a0c3d9aea6b1b14f4128ae2,"
+  },
+  "cover": "5:2",
+  "coverSlot": "5:10",
+  "color": "6:2",
+  "typography": "6:50",
+  "guide": "7:2",
+  "blocker": "Starter MCP tool-call allowance exhausted; screenshot and use_figma writes blocked",
+  "pending": [
+    "Verify final guide screenshots",
+    "Create native logo variants and motifs on page 4:2",
+    "Create templates on page 4:3",
+    "Verify exports and team access"
+  ],
+  "localSupplement": "/Users/dorelljames/Projects/mine/hf26/artifacts/hf26-brand-kit"
+}

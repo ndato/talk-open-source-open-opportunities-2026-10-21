@@ -1,3 +1,57 @@
-node_modules
-dist
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+build/
+.vite/
+.svelte-kit/
+.next/
+out/
+
+# Caches
+.cache/
+.turbo/
+.eslintcache
+*.tsbuildinfo
+node_modules/.cache/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Editor / OS
 .DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*.swo
+
+# Testing / coverage
+coverage/
+.nyc_output/
+
+# Debug
+*.pid
+*.seed
+*.pid.lock
+
+# Assets / scripts at repo root only.
+# Leading slash is load-bearing: an unanchored `assets` also matches
+# slides/<id>/assets/, which holds images the decks import at runtime.
+/assets
+/tools

@@ -1,0 +1,18 @@
+{
+  "colors": {
+    "paper": "#F4F1E8",
+    "ink": "#252820",
+    "orange": "#E64C2C",
+    "orange-dark": "#B63419",
+    "moss": "#798365",
+    "muted": "#66685B",
+    "line": "#D0D0C1",
+    "soft": "#EAEADE"
+  },
+  "fonts": {
+    "display": "Barlow Condensed Bold",
+    "body": "DM Sans Regular",
+    "emphasis": "DM Sans SemiBold"
+  },
+  "figmaFile": "https://www.figma.com/design/GVRi4tC99n4xT2JcZHZsuK"
+}
