@@ -979,6 +979,114 @@ const FiresideChat: Page = () => (
   </div>
 );
 
+const ThankYou: Page = () => (
+  <div
+    style={{
+      ...fill,
+      background: 'var(--osd-bg)',
+      color: 'var(--osd-text)',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+      textAlign: 'center',
+      padding: '0 160px',
+    }}
+  >
+    <Steps>
+      <div
+        style={{
+          display: 'inline-flex',
+          alignItems: 'center',
+          gap: 16,
+          padding: '10px 26px',
+          background: 'var(--osd-accent)',
+          color: '#F4F1E8',
+          borderRadius: 'var(--osd-radius)',
+          fontSize: 22,
+          fontWeight: 600,
+          letterSpacing: '0.2em',
+          textTransform: 'uppercase',
+          marginBottom: 22,
+        }}
+      >
+        Open Source, Open Opportunities
+      </div>
+      <h2
+        style={{
+          fontFamily: 'var(--osd-font-display)',
+          fontSize: 116,
+          fontWeight: 700,
+          margin: 0,
+          lineHeight: 1.0,
+          letterSpacing: '0.01em',
+          textTransform: 'uppercase',
+        }}
+      >
+        Thank You
+      </h2>
+      <div
+        style={{
+          width: 80,
+          height: 4,
+          background: 'var(--osd-accent)',
+          margin: '26px auto',
+        }}
+      />
+      <p
+        style={{
+          fontSize: 42,
+          fontWeight: 700,
+          margin: 0,
+          lineHeight: 1.3,
+          maxWidth: 1400,
+        }}
+      >
+        You came as users. Leave as builders.
+      </p>
+      <p
+        style={{
+          fontSize: 26,
+          color: muted,
+          margin: '18px 0 0',
+          maxWidth: 1150,
+          lineHeight: 1.45,
+        }}
+      >
+        The first contribution is rarely heroic — a fixed typo, a clearer README,
+        or a reproduced bug report all count. The communities on this stage are
+        exactly where you make that jump.
+      </p>
+      <Step>
+        <div
+          style={{
+            marginTop: 44,
+            display: 'flex',
+            gap: 40,
+            justifyContent: 'center',
+            fontSize: 24,
+            color: 'var(--osd-accent)',
+            fontWeight: 600,
+          }}
+        >
+          <span>↗ Ship your first PR</span>
+          <span>↗ Find your community</span>
+          <span>↗ Read the full study</span>
+        </div>
+      </Step>
+      <Step>
+        <div style={{ marginTop: 44 }}>
+          <div style={{ fontSize: 30, fontWeight: 700 }}>Neriah "BJ" Ato</div>
+          <div style={{ fontSize: 24, color: muted, marginTop: 6 }}>
+            Python Developer &amp; Open-Source Community Builder · Hacktoberfest Cebu 2026
+          </div>
+        </div>
+      </Step>
+    </Steps>
+    <Footer />
+  </div>
+);
+
 export const meta: SlideMeta = {
   title: 'Building the Frontier',
   createdAt: '2026-10-21T00:10:52.5945588+08:00',
@@ -995,6 +1103,7 @@ export const notes: (string | undefined)[] = [
   `Investors look for technical authenticity. Data proves that active public commits translate directly into higher valuations and venture funding success.`,
   `Building in public creates a natural distribution channel. Your developer users become your future enterprise customers. Stop writing code behind closed doors—commit and contribute.`,
   `"To wrap up our first section, let's bring it home with a special Fireside Chat. I'd like to invite to the stage the Executive Board members of the Cebu Tech Communities. Let's discuss how our local groups are navigating open source, bridging talent, and building the future right here in Cebu.`,
+  `Thank you all for being here tonight. Remember the ladder from the middle of this talk — you walked in as Users, and every one of you is now one small pull request away from being a Contributor. The five communities on that board are here this evening, so find them before you leave. And if you want to talk startups, funding, or simply how to make that first contribution, I will be around after the session. Let us make this the year our names start showing up in the commit history.`,
 ];
 
 export default [
@@ -1007,4 +1116,5 @@ export default [
   FundingFlywheel,
   DistributionChannel,
   FiresideChat,
+  ThankYou,
 ] satisfies Page[];
